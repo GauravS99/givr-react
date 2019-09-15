@@ -3,7 +3,7 @@ import UploadProfiles from "./UploadProfiles";
 import RatingComponent from "./RatingComponent";
 
 class AppBody extends React.Component {
-    public render() {
+    render() {
         return (
             <div className="text-center mt-4 flex flex-column">
                 <UploadProfiles />

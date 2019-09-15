@@ -16,9 +16,7 @@ function mean(numbers) {
     return total / numbers.length;
 }
 
-
-
-export default class RatingComponent extends React.Component<undefined, {rating: number, count: number}>{
+export default class RatingComponent extends React.Component<{}, {rating: number, count: number}>{
 
     constructor(props) {
         super(props);
