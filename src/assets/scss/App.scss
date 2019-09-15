@@ -1,0 +1,26 @@
+$primary: '#75dd51';
+
+h1 {
+  font-family: Righteous, Arial;
+}
+
+.error {
+  color: red;
+}
+
+.fullScreen{
+  height: 100vh;
+  width: 100vw;
+}
+
+.flex {
+  flex: 1
+}
+
+.colorAccent {
+  background-color: $primary;
+}
+
+.app {
+  background-color: aliceblue;
+}
